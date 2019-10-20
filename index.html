@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 08</title>
+    <script src="js/employee-management.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/master.css" />
+</head>
+
+<body onload="fillOutEmployeeChart()">
+<h3>The employee Management Application</h3>
+<p><strong>Add employee</strong></p>
+<div class="form-container">
+    <div id="name-container">
+        <div class="input-container">
+            <label for="name">Name:</label>
+            <input id="employee-name" name="name" />
+        </div>
+        <div id="name-error"></div>
+    </div>
+    <div id="employee-container">
+        <div class="input-container">
+            <label for="title">Title:</label>
+            <input id="employee-title" name="title" />
+        </div>
+        <div id="title-error"></div>
+    </div>
+    <div id="extension-container">
+        <div class="input-container">
+            <label for="extension">Extension:</label>
+            <input id="employee-extension" name="extension" />
+        </div>
+        <div id="extension-error"></div>
+    </div>
+    <div class="button-container">
+        <button onclick="attemptToAddEmployee()">
+            Add
+        </button>
+    </div>
+</div>
+<strong>
+    <p id="employee-count"></p>
+</strong>
+<div id="employee-table">
+
+</div>
+</body>
+</html>

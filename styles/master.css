@@ -1,0 +1,69 @@
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    width: 250px;
+}
+
+.input-container input {
+    border: 1px solid #5f9cd5
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 250px;
+    padding-bottom: 10px;
+}
+
+.button-container button {
+    background-color: #5f9cd5;
+    color: white;
+    width: 35%;
+    height: 30px;
+}
+
+.delete-button-container {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete-button {
+    background-color: #5f9cd5;
+    color: white;
+    width: 60%;
+    height: 50%
+}
+
+.form-container div {
+    display: flex;
+}
+
+.table-header div {
+    background-color: #5f9cd5;
+    color: white;
+}
+
+.row-styles-odd div {
+    background-color: #d4deef;
+}
+
+.row-styles-even div {
+    background-color: #ebeff7;
+}
+
+#employee-table div {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+}
+
+.row-styles-odd p, .row-styles-even p {
+    margin-left: 5px
+}
+
+#name-error, #title-error, #extension-error {
+    color: red;
+}
